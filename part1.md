@@ -41,9 +41,12 @@
 11. This function will return the array [50,100,150]. Eventhough we are making the array a const variable, we can still modify it. We are not reassigning its value, but just adding new entries into the const array. That allows us to have a const array, but it still doesn't run into an error since we are not reassigning its value.
 
 12. A. student.name
+
     B. student['Grad Year']
+
     C. student.greeting();
+
     D. student['Favorite Teacher'].name
+    
     E. student.courseLoad[0]
 
-    
