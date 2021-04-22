@@ -47,6 +47,50 @@
     C. student.greeting();
 
     D. student['Favorite Teacher'].name
-    
+
     E. student.courseLoad[0]
+
+13. A. '32'     Since we are adding, the integer 2 is converted to a string and we get '32'
+    
+    B. 1    Since we are subtracting from a string, we convert the string to an integer and do the computation.
+
+    C. 3    null converts to a 0, so we do 3 + 0 and get 3
+
+    D. '3null'     Since '3' is a string, we convert null to a string and put them together to get '3null'
+
+    E. 4        true converts to a 1, so we do 1 + 3 and we get 4
+
+    F. 0        When adding booleans, we convert them to integers. Since false is equal to 0 and null is equal to 0, when we add 0+0 we get 0.
+
+    G. '3undefined'     Since 3 is a string, we convert undefined to a string and when we put the two together we get '3undefined'
+
+    H. NaN      Since we are subtracting, we convert the string to an integer, and when we try and subtract an undefined number, we subtract Nan, so we get NaN.
+
+14. A. True     The string '2' becomes an integer and 2 > 1 so we get true.
+
+    B. False    Since we are comparing two strings, we look at the first character in each, and since the 2 is larger than the 1, we get false since 2 should not be less than 1.
+
+    C. True     The String '2' becomes an integer and 2 is equal to 2 so we get true.
+
+    D. False    Since we are using 3 equal signs, we do not convert types, so 2 is not the same as '2' so we get false.
+
+    E. False    Since true is converted to an integer an integer, which is 1, and 2 does not equal to 1, so we get false.
+
+    F. True     Since Boolean(2) is true, they have the same type and value of true, so we get true.
+
+15. The == operator can compare across different types of data and still get that they are equal, like how 2 == '2' can still be seen as true. The === operator also checks to make sure that both are of the same data type, so it cannot have a true outcome across data types, like how 2 === '2' is false since they are of different data types.
+
+17. The result would be for the array [2,4,6] to be returned. For each of the values in the array, we are pushing a new number to our new Array. We get this new number by calling back to a function, in this case doSomething, with the parameter of the values in the array. So we first take 1, and pass that through doSomething, and we get 2. We then push 2 to the new Array, and then go to the next number, which is 2, and pass that through doSomething. We get the value 4, which we then push to the new Array, and then repeat with the number 3. doSomething gives 6 for the number 3, so we add 6 to the array, and we return the new array which consists of [2,4,6].
+
+19. The output of the code is 
+    
+    1
+
+    4
+
+    3
+
+    2
+
+    The first console.log is printed, then the next two lines are set as a timeout, so they are delayed, so the 4th console.log is printed. Then the thrid one is printed since it has a lower timeout than the second one. The second console.log is the final output of the program.
 
