@@ -80,8 +80,12 @@
 
 15. The == operator can compare across different types of data and still get that they are equal, like how 2 == '2' can still be seen as true. The === operator also checks to make sure that both are of the same data type, so it cannot have a true outcome across data types, like how 2 === '2' is false since they are of different data types.
 
+16. JS code
+
 17. The result would be for the array [2,4,6] to be returned. For each of the values in the array, we are pushing a new number to our new Array. We get this new number by calling back to a function, in this case doSomething, with the parameter of the values in the array. So we first take 1, and pass that through doSomething, and we get 2. We then push 2 to the new Array, and then go to the next number, which is 2, and pass that through doSomething. We get the value 4, which we then push to the new Array, and then repeat with the number 3. doSomething gives 6 for the number 3, so we add 6 to the array, and we return the new array which consists of [2,4,6].
 
+18. JS Code
+ 
 19. The output of the code is 
     
     1
