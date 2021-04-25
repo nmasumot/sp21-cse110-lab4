@@ -1,0 +1,2 @@
+1. The bug was that the inputs were being used as strings instead of numbers. This made the numbers just connect together instead of being added together.
+2. I would fix this by typecasting num1 and num2 to be numbers so that they can be added together. 
